@@ -1,0 +1,283 @@
+
+.carousel-content {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    top: 10%;
+    z-index: 20;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+.carousel-content h5 {
+      color: black;
+  }
+
+.carousel-content h1 {
+    color: rgb(255, 124, 93);
+}
+
+.btn-outline-secondary1 {
+    color: rgb(255, 124, 93) !important;
+    border-color: black;
+    background-color: rgb(55, 55, 55) !important;
+}
+
+.btn-outline-secondary1:hover {
+    color: white !important;
+    background-color: rgb(255, 124, 93) !important;
+    border-color: rgb(255, 124, 93);
+}
+
+.btn-outline-secondary1:focus, .btn-outline-secondary1.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 124, 93, 0.5);
+  }
+  
+.nav-item a:hover {
+    color: rgb(255, 124, 93) !important;
+}
+
+.text-container1{
+    align-items: center;
+    padding:  20% 10%;
+}
+
+.text-container1 h1 {
+    color: rgb(255, 124, 93);
+}
+
+.box4 {
+    background: #fc846b;
+    background-image: url(./images/7.png);
+}
+
+.text-container2 {
+    list-style-type: none;
+    padding-top: 15%;
+}
+
+.text-container2 li h4 {
+    color: white;
+}
+
+.text-container2 li h5{
+    color: #ffffff;
+}
+
+.text-container2 li {
+    padding: 2%;
+}
+
+.box5 h4 {
+    text-align: center;
+    color: rgb(255, 124, 93);
+} 
+
+.box5 h5 {
+    text-align: center;
+}
+
+.box5 h1 {
+    text-align: center;
+    color: rgb(255, 124, 93);
+    padding: 0% 25%;
+}
+
+.box6 {
+    background-image: url(./images/6.jpg);
+}
+
+.lastbox {
+    background-image: url(./images/6.jpg);
+    background-size: cover;
+}
+
+.logo-placement {
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+}
+
+.text-container3 {
+    color: #ffffff;
+    font-size: 2.85vh;
+    margin-top: 0.5%;
+    margin-bottom: 1.75%;
+}
+
+.icons {
+    color: #fc846b;
+}
+
+.icons:hover {
+    color: #ffffff;
+}
+
+.inputtextbox {
+    margin-bottom: 3%;
+}
+
+.iconsbox {
+    margin-bottom: 3%;
+}
+
+.laasttextbox {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.laasttextbox:hover {
+    color: #fc846b;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 480px) {
+    h5 {
+      font-size: 15px !important;
+      text-align: center;
+    }
+
+    h1 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+
+    p {
+        font-size: 10px !important;
+        text-align: center;
+    }
+
+  }
+
+
+
+
+/* Products Page CSS */
+
+
+.pbox1 {
+    background-image: url(./images/8.jpg);
+    background-size: cover;
+}
+
+.pbox1 h1 {
+    color: #ffffff;
+}
+
+.pbox1 h4 {
+    color: #ffffff;
+}
+
+.pbox1 h4 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pbox2 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pbox3 {
+    padding-bottom: 3%;
+}
+
+.listdecor {
+    list-style: none;
+}
+
+.listdecor li h4 {
+    padding-top: 10%;
+}
+
+.listdecor li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.listdecor li a:hover {
+    color: #fc846b;
+}
+
+.listdecor li {
+    padding: 2% 0%;
+}
+
+.list2decor {
+    list-style: none;
+    padding-top: 3%;
+}
+
+.list2decor li label:hover {
+    color: #fc846b;
+}
+
+.productsbox {
+    padding: 5%;
+}
+
+.card-body p a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-body p a:hover {
+    color: #fc846b;
+}
+
+/* Cart Page CSS */
+
+.box-border {
+    border: #000000;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(245, 245, 245);
+    padding: 2%;
+    text-align: center;
+}
+
+.linkdecor {
+    text-decoration: none;
+    color: #fc846b;
+}
+
+.linkdecor:hover {
+    color: #fc846b;
+    text-decoration: none;
+}
+
+.text-color {
+    color: #fc846b;
+}
+
+.text-align1 {
+    text-align: right;
+}
+
+.linkdecor2 {
+    color: #000000;
+}
+
+.linkdecor2:hover {
+    color: #fc846b;
+}
+
+.inputtextbox {
+    width: 100%;
+    height: 100px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.lastheadingbox {
+    padding: 5% 0;
+}
+
+.lastheadingbox2 {
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
